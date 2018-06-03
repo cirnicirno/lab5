@@ -10,13 +10,13 @@ public class CoreSimpleNumbers {
         SimpleNumber simpleNumber = new SimpleNumber();
         if (simpleNumber.test(number)){
             System.out.println("Вы ввели простое число!");
-            System.out.print("Другие простые числа от 0 до " + number + ": ");
-            OtherSimple otherSimple = new OtherSimple();
-            otherSimple.print(number);
 
         } else {
             System.out.println("Вы введи не простое число!");
         }
+            System.out.print("Простые числа от 0 до " + number + ": ");
+            OtherSimple otherSimple = new OtherSimple();
+            otherSimple.print(number);
     }
 
 
