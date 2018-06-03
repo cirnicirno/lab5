@@ -14,7 +14,7 @@ public class OtherSimple {
 
             if (simpleNumber.test(i)){
 
-                System.out.print(i + "\t");
+                System.out.println(i);
 
             }
 
